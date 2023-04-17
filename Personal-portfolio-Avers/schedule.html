@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+      <html lang="en">
+         <head>
+<!-- Added links for new stylesheets-->
+
+<meta charset="utf-8">
+   <title> linking to another page </title>
+   <link rel="stylesheet" href="layout.css">
+   <link href="dlr_tables.css" rel="stylesheet" >  
+   <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="Logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="artwork.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>3D Animator/Modeler</p>
+            <h1>Hi, I'm <span>Sam</span><br>Avers. </h1>
+        </div>
+    </div>
+</div>
+
+ 
+    <!--how to use images below with reference-->
+
+    <img src="images/gandalf.gif" alt="Gandalf meme" class="center">
+
+    <!--<img src="MAMP-PRO-Logo.png" alt="MAMP pro logo" width="500" height="98"/> -->
+
+    <p> This page is under HEAVY construction so please ignore it. The related code is unvalidated at the current time.</p>
+
+    <div id="container">
+   
+      <section id="main"> 
+         <!--<img src="logo.png" alt="DLR" /> -->
+         <h2>My availability</h2>
+         <p>I will be streaming on Twitch while I work on some artwork. Listen Live and don't forget to reach out to me!
+              you can find me on a lot of various platforms. 
+              </p>
+         <!-- page 455 -->
+                   <table class="schedule">
+            <!-- Page 471 - step 2 -->
+            <caption>All Times Central</caption>
+            <!-- Page 483 - step 2 -->
+            <colgroup>
+               <col id="firstCol" >
+               <col class="dayCols" span="7" >
+            </colgroup>    
+            <thead>  <!-- Page 479 - step 2 -->
+               <tr>
+                  <!-- pages 457-458 -->
+                  <th>Time</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th> 
+                  <th>Sat</th>
+                  <th>Sun</th>
+               </tr>
+            </thead>
+            <tbody>   <!-- Page 479 - step 3 -->
+               <tr>
+                  <th>6:00 PM</th>
+                  <!-- Page 465 - step 2 -->
+                  <td colspan="7">Special Effects</td>               
+               </tr>
+               <tr>
+                  <th>6:30 PM</th>
+                  <!-- Page 465 - step 2 -->
+                  <td colspan="7">3-D Modeling</td>               
+               </tr>
+               <!-- Page 467 - step 2 -->
+               <tr>
+                  <th>7:00 PM</th>
+                  <td rowspan="2">Animation</td>
+                  <td rowspan="2">Optimization</td>
+                  <td rowspan="2">Software</td>
+                  <td rowspan="2">Hardware</td>
+                  <td>Rendering pt.1</td>
+                  <td>Game Design pt.1</td>
+                  <td rowspan="2">Keyframes</td>
+               </tr>
+               <!-- Page 467 - step 3 -->  
+               <tr>
+                  <th>7:30 PM</th>
+                  <td>Rendering pt.2</td>
+                  <td>Game Design pt.2</td>
+               </tr> 
+               <!-- Page 469 - steps 1-5 -->   
+               <tr>
+                  <th>8:00 PM</th>
+                  <td rowspan="4" colspan="4">3-D Animation</td>
+                  <td>Sound Design</td>
+                  <td rowspan="4">Level Design</td>
+                  <td rowspan="4">Character Design</td>
+               </tr>
+               <tr>
+                  <th>8:30 PM</th>
+                  <td>Lighting</td>
+               </tr>
+               <tr>
+                  <th>9:00 PM</th>
+                  <td rowspan="2">Bump Mapping</td>
+               </tr>
+               <tr>
+                  <th>9:30 PM</th>
+               </tr>
+               <tr>
+                  <th>10:00 PM</th>
+                  <td colspan="7">Ask me Anything!</td>
+               </tr>
+            </tbody>
+            <!-- Page 479 - step 4 -->
+            <tfoot>
+               <tr>
+                  <td colspan="8">I end my stream today at around 10:30 p.m every day.</td>
+               </tr>
+            </tfoot> 
+
+         </table>
+      </section>
+      
+      <section id="right">
+         <aside id="current">
+            <h1>Why not send me an email?</h1>
+            <h2>I don't bite </h2>
+            <p>I would be more than happy to give you an estimate cost for whatever you want done. </p>
+         </aside>
+         <aside id="future">
+            <h1>Some dates and Times im available</h1>
+            <h2>April 11<br>
+               1:00 p.m. to 3:00 p.m. </h2>
+            <p>placeholder, placeholder,placeholder, placeholder,placeholder, placeholder, </p>
+            <h2>April 12<br>
+               4:30 p.m. to 6:00 p.m. </h2>
+            <p>placeholder <em> placeholder</em> placeholder, placeholder,placeholder, placeholder,placeholder, placeholder,</p>
+            <h2>April 13<br>
+               11:00 a.m. to 2:00 p.m. </h2>
+            <p>placeholder, placeholder,placeholder, placeholder,placeholder, placeholder, <i>placeholder</i> </p>
+            <h2>April 14<br>
+               1:30 p.m. to 3:30 p.m. </h2>
+            <p>placeholder, placeholder,placeholder, placeholder,placeholder, placeholder, <em> placeholder </em> </p>
+            <h2>April 15<br>
+               10:00 a.m. to 12:00 p.m. </h2>
+            <p>placeholder, placeholder,placeholder, placeholder,placeholder, placeholder, </p>
+         </aside>
+      </section>
+
+      <!--my first SVG location below-->
+
+      <h1>My first SVG</h1>
+
+      <svg width="100" height="100">
+       <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg>
+      
+   </div>
+   
+   <footer>
+      DLR &#183; 1221 Hunter Lane &#183; Woodbury, IL 12345 &#183; (123) 456 - 7891
+   </footer>
+</body>
+</html>
